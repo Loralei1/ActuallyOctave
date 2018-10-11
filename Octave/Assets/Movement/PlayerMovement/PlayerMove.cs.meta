@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 87ac61032809f7f43a31666c0f63fad4
+timeCreated: 1539293821
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gravity: {fileID: 11400000, guid: dbba52ebec5a7124083c125c1e2ca03a, type: 2}
+  - Speed: {fileID: 11400000, guid: a3b2a806308a90948a174aa8a4faa1c4, type: 2}
+  - transform: {instanceID: 0}
+  - destination: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
