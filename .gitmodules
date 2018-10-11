@@ -1,0 +1,3 @@
+[submodule "Octave/Assets"]
+	path = Octave/Assets
+	url = https://github.com/Loralei1/CharacterMovementGeneric.git
