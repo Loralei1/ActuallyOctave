@@ -9,13 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2848e07464e78cf4cb0629ffe92d67ec, type: 3}
-  m_Name: New Move Pattern
+  m_Name: Player
   m_EditorClassIdentifier: 
   jumpSpeed: {fileID: 11400000, guid: dbba52ebec5a7124083c125c1e2ca03a, type: 2}
   gravity: {fileID: 11400000, guid: dbba52ebec5a7124083c125c1e2ca03a, type: 2}
   MoveX: {fileID: 11400000, guid: dbba52ebec5a7124083c125c1e2ca03a, type: 2}
-  MoveY: {fileID: 11400000, guid: dbba52ebec5a7124083c125c1e2ca03a, type: 2}
-  MoveZ: {fileID: 11400000, guid: 42482b99f90ee27448a0cfa82bcf1c34, type: 2}
+  MoveY: {fileID: 11400000, guid: 42482b99f90ee27448a0cfa82bcf1c34, type: 2}
+  MoveZ: {fileID: 11400000, guid: dbba52ebec5a7124083c125c1e2ca03a, type: 2}
   RotX: {fileID: 11400000, guid: dbba52ebec5a7124083c125c1e2ca03a, type: 2}
   RotY: {fileID: 11400000, guid: a3b2a806308a90948a174aa8a4faa1c4, type: 2}
   RotZ: {fileID: 11400000, guid: dbba52ebec5a7124083c125c1e2ca03a, type: 2}

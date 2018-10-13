@@ -2,28 +2,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Fermata : MonoBehaviour
 {
 
-	private bool hold; 
+	private bool MoveEnabled;
+	//public Rigidbody rb; 
 
 
-	//public void OnTriggerEnter(Collider other)
-	//{
-	//	hold = false;
-	//	yield return WaitForSeconds(3);
-	//	hold = false; 
-	//}
+	IEnumerator OnTriggerEnter(Collider other)
+	
+	{
+		
+		{
+			//rb.constraints = RigidbodyConstraints.FreezeAll;
+			MoveEnabled = false; 
+			yield return new WaitForSeconds(3);
+			MoveEnabled = true; 
+			//rb.constraints = RigidbodyConstraints.None;
+		}
 
-	//IEnumerator Update()
-	//{
-	//	yield return WaitForSeconds(3);
-	//	hold = false; 
-	//}
-//}
+	}
 
-//public class yield
-//{
+
 }
