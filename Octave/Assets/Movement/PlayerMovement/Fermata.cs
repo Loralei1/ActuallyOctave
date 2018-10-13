@@ -4,28 +4,35 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using JetBrains.Annotations;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Fermata : MonoBehaviour
 {
 
-	private bool MoveEnabled;
-	//public Rigidbody rb; 
+	//private bool MoveEnabled;
+	//public Rigidbody rb;
+	public Give GivePattern;
+
+	public void OnTriggerExit(Collider obj)
+	{
+		if (gameObject.CompareTag("Player"))
+		{
+			obj.GetComponent<MoveBase>().MovePattern = GivePattern.Transfer();
+		}
+			
+	}
 
 
-	IEnumerator OnTriggerEnter(Collider other)
+	/*IEnumerator OnTriggerEnter(Collider other)
 	
 	{
-		
+		if (gameObject.CompareTag("Fermata"))
 		{
-			//rb.constraints = RigidbodyConstraints.FreezeAll;
-			MoveEnabled = false; 
+		    rb.constraints = RigidbodyConstraints.FreezeAll;
 			yield return new WaitForSeconds(3);
-			MoveEnabled = true; 
-			//rb.constraints = RigidbodyConstraints.None;
+			rb.constraints = RigidbodyConstraints.None;
 		}
 
 	}
-
+*/
 
 }
