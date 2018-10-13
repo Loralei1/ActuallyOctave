@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47bb2aa21a4f26d4498a09b3e248e803, type: 3}
   m_Name: New Float Bool
   m_EditorClassIdentifier: 
-  value: 0
-  InputType: 
+  value: 10
+  InputType: Jump

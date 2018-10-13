@@ -17,9 +17,14 @@
         </e>
         <e p="PlayerMovement" t="Include">
           <e p="ButtonMove.cs" t="Include" />
+          <e p="DestroyOnContact.cs" t="Include" />
+          <e p="Fermata.cs" t="Include" />
           <e p="MoveEvent.cs" t="Include" />
+          <e p="NoteInstance.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />
           <e p="PlayerMovePartTwo.cs" t="Include" />
+          <e p="PlayNote.cs" t="Include" />
+          <e p="Shots.cs" t="Include" />
         </e>
       </e>
       <e p="Assets\Standard Assets" t="Include">
