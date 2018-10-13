@@ -12,7 +12,7 @@ public class Fermata : MonoBehaviour
 	//public Rigidbody rb;
 	public Give GivePattern;
 
-	public void OnTriggerExit(Collider obj)
+	public void OnTriggerEnter(Collider obj)
 	{
 		if (gameObject.CompareTag("Player"))
 		{
