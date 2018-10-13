@@ -48,7 +48,7 @@ public class MovePattern : ScriptableObject
 
 	{
 
-		moveDirection.y = gravity.Value;// * Time.deltaTime;
+		moveDirection.y -= gravity.Value * Time.deltaTime;
 		controller.Move(moveDirection * Time.deltaTime);
 
 	}

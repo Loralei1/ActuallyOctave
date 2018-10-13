@@ -1116,3 +1116,37 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1682558981}
+--- !u!1 &1943128512 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1055766776094680, guid: 2b4f3c332974a2546a7862cfddd43ef6,
+    type: 2}
+  m_PrefabInternal: {fileID: 386822716}
+--- !u!114 &1943128518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1943128512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f20ddbc0efa1cb4bb07db93a1b0f017, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MovePattern: {fileID: 11400000, guid: eb3369da25e48ea40b95f35b1e685650, type: 2}
+--- !u!143 &1943128519
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1943128512}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
