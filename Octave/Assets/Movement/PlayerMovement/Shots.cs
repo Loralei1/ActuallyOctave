@@ -6,9 +6,19 @@ public class Shots : MonoBehaviour
 {
 
 	public GameObject Shot;
+	public Transform shotSpot;
+	public float fireRate;
 
-	private void OnMouseDown()
+	private float nextFire; 
+
+	private void Update()
 	{
-		Instantiate(Shot, transform.position, transform.rotation);
-	}
+		if (Input.GetButton("Jump") && Time.time > nextFire);
+		{
+			nextFire = Time.time + fireRate; 
+			Instantiate(Shot, shotSpot.position, shotSpot.rotation);
+		}
+	} 
+
+	
 }
