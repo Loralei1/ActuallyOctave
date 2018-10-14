@@ -13,7 +13,7 @@ public class Shots : MonoBehaviour
 
 	private void Update()
 	{
-		if (Input.GetButton("Jump") && Time.time > nextFire);
+		if (Input.GetButton("Jump") && Time.time > nextFire)
 		{
 			nextFire = Time.time + fireRate; 
 			Instantiate(Shot, shotSpot.position, shotSpot.rotation);
