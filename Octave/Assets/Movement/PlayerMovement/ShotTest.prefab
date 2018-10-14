@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 33565784235676546}
   - component: {fileID: 135840440321279964}
   - component: {fileID: 23199345039593006}
-  - component: {fileID: 114467012400825288}
   - component: {fileID: 114478594262391686}
   - component: {fileID: 54945181947735846}
   m_Layer: 0
@@ -101,19 +100,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114467012400825288
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343467292362940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc1fc2150d211b947aca4c4a824ea0d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Shot: {fileID: 1343467292362940}
-  ShotSpot: {fileID: 0}
 --- !u!114 &114478594262391686
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -125,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d6c1357b8b0f740a69143571aa8c39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 12
+  Speed: 7
 --- !u!135 &135840440321279964
 SphereCollider:
   m_ObjectHideFlags: 1
