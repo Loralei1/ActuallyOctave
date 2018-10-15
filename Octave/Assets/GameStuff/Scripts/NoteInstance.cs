@@ -8,9 +8,7 @@ public class NoteInstance : MonoBehaviour
 	public GameObject Note;
 	public Transform transform;
 
-	public bool CanNote = true; 
-	//public List<GameObject> notecount;
-	//public GameObject AddMember; 
+	public bool CanNote = true;  
 	//public GameObject[] Notes; 
 
 	//[Range(1f, 20f)] public float noteSeconds = 3f;
