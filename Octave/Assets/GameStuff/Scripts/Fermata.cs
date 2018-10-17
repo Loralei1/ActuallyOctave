@@ -10,7 +10,6 @@ public class Fermata : MonoBehaviour
 
 	//private bool MoveEnabled;
 	//public Rigidbody rb;
-	
 	public Give GivePattern;
 
 	public void OnTriggerEnter(Collider obj)
@@ -24,7 +23,7 @@ public class Fermata : MonoBehaviour
 
 
 	/*IEnumerator OnTriggerEnter(Collider other)
-	 if I use the rigid body instead of the character controller
+	
 	{
 		if (gameObject.CompareTag("Fermata"))
 		{

@@ -6,6 +6,7 @@
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+<<<<<<< Updated upstream
       <e p="Assets" t="Include">
         <e p="GameStuff" t="Include">
           <e p="PatternsInputsandData" t="Include">
@@ -31,6 +32,30 @@
             <e p="Score.cs" t="Include" />
             <e p="Shots.cs" t="Include" />
           </e>
+=======
+      <e p="Assets\GameStuff" t="Include">
+        <e p="InputsandDatas" t="Include">
+          <e p="FloatBool.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
+          <e p="FloatInput.cs" t="Include" />
+          <e p="MoveBase.cs" t="Include" />
+          <e p="MovePattern.cs" t="Include" />
+          <e p="MovePatternNotGrounded.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ButtonMove.cs" t="Include" />
+          <e p="DestroyOnContact.cs" t="Include" />
+          <e p="Fermata.cs" t="Include" />
+          <e p="Give.cs" t="Include" />
+          <e p="MoveEvent.cs" t="Include" />
+          <e p="Mover.cs" t="Include" />
+          <e p="NoteInstance.cs" t="Include" />
+          <e p="PlayerMove.cs" t="Include" />
+          <e p="PlayerMovePartTwo.cs" t="Include" />
+          <e p="PlayNote.cs" t="Include" />
+          <e p="Score.cs" t="Include" />
+          <e p="Shots.cs" t="Include" />
+>>>>>>> Stashed changes
         </e>
         <e p="Standard Assets" t="Include">
           <e p="CrossPlatformInput" t="Include">

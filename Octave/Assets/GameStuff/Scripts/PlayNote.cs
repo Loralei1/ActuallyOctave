@@ -10,8 +10,5 @@ public class PlayNote : MonoBehaviour
 	private void OnTriggerEnter(Collider other)
 	{
 		Note.Play();
-		gameObject.SetActive(false);
 	}
-	
-	
 }
