@@ -9,6 +9,7 @@ TagManager:
   - Door
   - Destroy
   - Shot
+  - QuarterNote
   layers:
   - Default
   - TransparentFX
