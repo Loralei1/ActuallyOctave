@@ -19,7 +19,7 @@
           <e p="FloatBools.cs" t="Include" />
           <e p="FloatDatas.cs" t="Include" />
           <e p="FloatInputs.cs" t="Include" />
-          <e p="MoveBase.cs" t="Include" />
+          <e p="MoveBases.cs" t="Include" />
           <e p="MovePatternNotGroundeds.cs" t="Include" />
           <e p="MovePatterns.cs" t="Include" />
         </e>
