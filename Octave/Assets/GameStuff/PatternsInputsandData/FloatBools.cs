@@ -6,7 +6,7 @@ using UnityEngine;
 
 [CreateAssetMenu]
 
-public class FloatBool : FloatInput
+public class FloatBools : FloatInput
 
 {
 	public override float Value

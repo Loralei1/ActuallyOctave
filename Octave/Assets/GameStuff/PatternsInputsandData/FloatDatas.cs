@@ -5,7 +5,7 @@ using UnityEngine;
 
 	[CreateAssetMenu(fileName = "NewFloat")]
 
-	public class FloatData : ScriptableObject
+	public class FloatDatas : ScriptableObject
 
 	{
 

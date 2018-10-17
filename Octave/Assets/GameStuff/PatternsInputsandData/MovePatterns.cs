@@ -6,7 +6,7 @@ using UnityEngine;
 
 [CreateAssetMenu]
 
-public class MovePattern : ScriptableObject
+public class MovePatterns : ScriptableObject
 
 {
 

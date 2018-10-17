@@ -8,12 +8,12 @@ using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 
-public class MoveBase : MonoBehaviour
+public class MoveBases : MonoBehaviour
 
 {
 
 	private CharacterController controller;
-	public MovePattern MovePattern;
+	public MovePattern MovePatterns;
 
 	private void Start()
 
@@ -27,7 +27,7 @@ public class MoveBase : MonoBehaviour
 
 	{
 
-		MovePattern.Invoke(controller, transform);
+		MovePatterns.Invoke(controller, transform);
 
 	}
 

@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [CreateAssetMenu]
-public class FloatInput : FloatData
+public class FloatInputs : FloatData
 
 {
  
