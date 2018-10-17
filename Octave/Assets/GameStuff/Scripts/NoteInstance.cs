@@ -27,6 +27,9 @@ public class NoteInstance : MonoBehaviour
 
 			//notecount.Add(AddMember.gameObject);
 			//foreach (GameObject note in notecount) ;
+			
+			//Aaaaaand I haven't gotten this or the score to work quite right yet. 
+			//The notes instantiate but I can't get the random things to instantiate.
 		}
 	}
 }

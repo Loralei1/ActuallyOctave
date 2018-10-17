@@ -23,6 +23,9 @@
           <e p="MovePatternNotGroundeds.cs" t="Include" />
           <e p="MovePatterns.cs" t="Include" />
         </e>
+        <e p="Prefab" t="Include">
+          <e p="PurchasableObject.cs" t="Include" />
+        </e>
         <e p="scripts" t="Include">
           <e p="ButtonMove.cs" t="Include" />
           <e p="DestroyOnContact.cs" t="Include" />
@@ -31,11 +34,15 @@
           <e p="Health.cs" t="Include" />
           <e p="MoveEvent.cs" t="Include" />
           <e p="Mover.cs" t="Include" />
+          <e p="NameID.cs" t="Include" />
           <e p="NoteInstance.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />
           <e p="PlayerMovePartTwo.cs" t="Include" />
+          <e p="PlayerScore.cs" t="Include" />
           <e p="PlayNote.cs" t="Include" />
           <e p="Score.cs" t="Include" />
+          <e p="ScoreInstance.cs" t="Include" />
+          <e p="ScoreTest.cs" t="Include" />
           <e p="Shots.cs" t="Include" />
         </e>
       </e>
