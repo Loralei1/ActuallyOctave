@@ -12,30 +12,39 @@ public class Score : MonoBehaviour
 	public Text ScoreText;
 
 	public int scorenum;
-	public enum musicthings {QuarterNote, HalfNote, WholeNote, EigthNote, Rest, Fermata};
 
-	public musicthings musicname; 
+	public enum musicthings
+	{
+		QuarterNote,
+		HalfNote,
+		WholeNote,
+		EigthNote,
+		Rest,
+		Fermata
+	};
+
+	public musicthings musicname;
 
 	private void Start()
 	{
-		scorenum = 0;
-		SetScoreText();
+		
+		//SetScoreText();
 	}
 
 
 	void OnTriggerEnter(Collider other)
 
 	{
-		if (other.gameObject.CompareTag("Destroy"))
+		if (other.gameObject.CompareTag("Shot"))
 		{
 			switch (musicname)
 			{
 				case (musicthings.QuarterNote):
 					scorenum = scorenum + 2;
-					SetScoreText();
+					ScoreText.text = scorenum.ToString();
 					break;
 
-				case (musicthings.HalfNote):
+				/*case (musicthings.HalfNote):
 					scorenum = scorenum + 4;
 					SetScoreText();
 					break;
@@ -77,6 +86,10 @@ public class Score : MonoBehaviour
 	void SetScoreText()
 		{
 			ScoreText.text = "Score: " + scorenum.ToString();
-		}
+		*/
+			}
 
+		}
 	}
+}
+	
