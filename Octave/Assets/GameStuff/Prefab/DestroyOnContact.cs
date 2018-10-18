@@ -7,9 +7,11 @@ public class DestroyOnContact : MonoBehaviour {
 	private void OnTriggerEnter(Collider other)
 	{
 
-		if (other.gameObject.CompareTag("Destroy"))
+		
 		{
+			other.gameObject.SetActive(false);
 			gameObject.SetActive(false);
 		}
+		
 	}
 }

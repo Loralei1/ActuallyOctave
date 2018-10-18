@@ -9,9 +9,9 @@ public class Score : MonoBehaviour
 {
 
 
-	public Text ScoreText;
+	public Text scoreText;
 
-	public int scorenum;
+	private int scorenum;
 
 	public enum musicthings
 	{
@@ -27,8 +27,8 @@ public class Score : MonoBehaviour
 
 	private void Start()
 	{
-		
-		//SetScoreText();
+		scorenum = 0;
+		SetScoreText();
 	}
 
 
@@ -37,11 +37,13 @@ public class Score : MonoBehaviour
 	{
 		if (other.gameObject.CompareTag("Shot"))
 		{
+			other.gameObject.SetActive(false);
+
 			switch (musicname)
 			{
 				case (musicthings.QuarterNote):
 					scorenum = scorenum + 2;
-					ScoreText.text = scorenum.ToString();
+					SetScoreText();
 					break;
 
 				/*case (musicthings.HalfNote):
@@ -78,18 +80,21 @@ public class Score : MonoBehaviour
 
 		//	scorenum = scorenum + 1;
 
-		//	SetScoreText();
+		//	SetScoreText();*/
 
-		
+
+			}
+		}
+
 	}
 
 	void SetScoreText()
 		{
-			ScoreText.text = "Score: " + scorenum.ToString();
-		*/
+			scoreText.text = "Score: " + scorenum.ToString();
+		
 			}
 
 		}
-	}
-}
+	
+
 	

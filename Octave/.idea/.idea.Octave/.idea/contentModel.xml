@@ -24,11 +24,11 @@
           <e p="MovePatterns.cs" t="Include" />
         </e>
         <e p="Prefab" t="Include">
+          <e p="DestroyOnContact.cs" t="Include" />
           <e p="PurchasableObject.cs" t="Include" />
         </e>
         <e p="scripts" t="Include">
           <e p="ButtonMove.cs" t="Include" />
-          <e p="DestroyOnContact.cs" t="Include" />
           <e p="Fermata.cs" t="Include" />
           <e p="Give.cs" t="Include" />
           <e p="Health.cs" t="Include" />

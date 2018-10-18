@@ -13,6 +13,7 @@ public class PlayerScore : MonoBehaviour
     {
         scorenum = 0; 
         SetScoreText();
+
     }
 
     private void OnTriggerEnter(Collider other)
