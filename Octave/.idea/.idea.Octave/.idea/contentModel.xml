@@ -29,6 +29,7 @@
         </e>
         <e p="scripts" t="Include">
           <e p="ButtonMove.cs" t="Include" />
+          <e p="Countdown.cs" t="Include" />
           <e p="DestroyInstantly.cs" t="Include" />
           <e p="Fermata.cs" t="Include" />
           <e p="Give.cs" t="Include" />
