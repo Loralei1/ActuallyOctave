@@ -5,7 +5,7 @@ using UnityEngine;
 public class NoteInstance : MonoBehaviour
 {
 
-	public GameObject Note;
+	public GameObject[] Note;
 	public Transform transform;
 
 	public bool CanNote = true; 
@@ -13,6 +13,10 @@ public class NoteInstance : MonoBehaviour
 	//public GameObject AddMember; 
 
 	//[Range(1f, 20f)] public float noteSeconds = 3f;
+	private GameObject getNote()
+	{
+		return Note[Random.Range(0, 3)];
+	}
 	
 
 	IEnumerator Start()
@@ -22,7 +26,7 @@ public class NoteInstance : MonoBehaviour
 			yield return new WaitForSeconds(Random.Range(1, 8));
 			//for (int i = 0; i < 1; i++)
 			{
-				Instantiate(Note, transform.position, transform.rotation);
+				Instantiate(getNote(), transform.position, transform.rotation);
 			}
 
 			//notecount.Add(AddMember.gameObject);
