@@ -1,24 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Net.Mime;
+using System.Security.Policy;
 using UnityEngine;
 using UnityEngine.UI;
+
+
 public class Countdown : MonoBehaviour {
 
-	public Text label;
+	public Text CountDown;
 
 	public float seconds = 1.0f;
 
 	public int number = 120; 
 
-	
-
-	
-
 	IEnumerator Start()
 
 	{
 
-		label = GetComponent<Text>();
+		//label = GetComponent<Text>();
 
 		while (number > 0)
 
@@ -26,7 +26,7 @@ public class Countdown : MonoBehaviour {
 
 			yield return new WaitForSeconds(seconds);
 
-			label.text = number.ToString();
+			CountDown.text = number.ToString();
 
 			number--;
 
@@ -36,13 +36,13 @@ public class Countdown : MonoBehaviour {
 
 		yield return new WaitForSeconds(1);
 
-		label.text = "Cut.";
+		CountDown.text = "Cut.";
 	}
 
 	private void OnTriggerEnter(Collider other)
 	{
 		if (!other.gameObject.CompareTag("Rest")) return;
-		label.text = number.ToString();
+		CountDown.text = number.ToString();
 		number = number + 10;
 	}
 }
