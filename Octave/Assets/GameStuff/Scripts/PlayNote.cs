@@ -1,14 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 
 public class PlayNote : MonoBehaviour
 {
 
-	public AudioSource Note;
+	public AudioSource Tone;
 
 	private void OnTriggerEnter(Collider other)
+	
+	
 	{
-		Note.Play();
+		if(other.gameObject.CompareTag("Shot"))
+		{
+			Tone.Play();
+		}
+		
 	}
 }
