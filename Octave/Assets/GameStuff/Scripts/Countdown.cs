@@ -12,7 +12,10 @@ public class Countdown : MonoBehaviour {
 
 	public float seconds = 1.0f;
 
-	public int number = 120; 
+	public int number = 60;
+
+	public GameObject EndGame;
+	public Transform transform; 
 
 	IEnumerator Start()
 
@@ -44,5 +47,19 @@ public class Countdown : MonoBehaviour {
 		if (!other.gameObject.CompareTag("Rest")) return;
 		CountDown.text = number.ToString();
 		number = number + 10;
+		
+		if (!other.gameObject.CompareTag("Fermata")) return;
+		CountDown.text = number.ToString();
+		number = number + 10;
+	}
+
+	private void Update()
+	{
+		if (number <= 0)
+		{
+			Instantiate(EndGame, transform.position, transform.rotation);
+			
+		}
+		
 	}
 }

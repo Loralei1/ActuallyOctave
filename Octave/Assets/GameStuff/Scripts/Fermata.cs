@@ -9,8 +9,9 @@ public class Fermata : MonoBehaviour
 {
 
 	//private bool MoveEnabled;
-	//public Rigidbody rb;
-	public Give GivePattern;
+	public Rigidbody rb;
+
+	/*public Give GivePattern;
 
 	public void OnTriggerEnter(Collider obj)
 	{
@@ -19,20 +20,29 @@ public class Fermata : MonoBehaviour
 			obj.GetComponent<MoveBase>().MovePattern = GivePattern.Transfer();
 		}
 			
+	}*/
+	void Start()
+	{
+
+		rb = GetComponent<Rigidbody>();
 	}
 
 
-	/*IEnumerator OnTriggerEnter(Collider other)
-	
-	{
-		if (gameObject.CompareTag("Fermata"))
+	IEnumerator OnTriggerEnter(Collider other)
+
 		{
-		    rb.constraints = RigidbodyConstraints.FreezeAll;
-			yield return new WaitForSeconds(3);
-			rb.constraints = RigidbodyConstraints.None;
+			if (other.gameObject.CompareTag("Fermata"))
+			{
+				rb.constraints = RigidbodyConstraints.FreezeAll;
+				yield return new WaitForSeconds(10);
+				rb.constraints = RigidbodyConstraints.FreezeAll;
+				rb.constraints = RigidbodyConstraints.FreezeRotationZ;
+				rb.constraints = RigidbodyConstraints.FreezeRotationX;
+				rb.constraints = RigidbodyConstraints.FreezeRotationY; 
+			}
+
 		}
 
-	}
-*/
 
-}
+	}
+

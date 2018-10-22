@@ -15,7 +15,7 @@ public class NoteInstance : MonoBehaviour
 	//[Range(1f, 20f)] public float noteSeconds = 3f;
 	private GameObject getNote()
 	{
-		return Note[Random.Range(0, 3)];
+		return Note[Random.Range(0, 4)];
 	}
 	
 
