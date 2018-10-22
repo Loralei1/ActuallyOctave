@@ -530,7 +530,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 251809255}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 31.577389, y: -3.52, z: 0}
+  m_LocalPosition: {x: 31.577389, y: -3.44, z: 0}
   m_LocalScale: {x: 1.8640724, y: 1.8640728, z: 1.8640728}
   m_Children: []
   m_Father: {fileID: 1463262018}
@@ -828,6 +828,7 @@ GameObject:
   - component: {fileID: 647622385}
   - component: {fileID: 647622381}
   - component: {fileID: 647622380}
+  - component: {fileID: 647622384}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -874,7 +875,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.48, y: 3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -921,7 +922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanMove: 0
-  moveSpeed: 5.2
+  moveSpeed: 11.8
 --- !u!114 &647622382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -935,7 +936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Shot: {fileID: 1343467292362940, guid: ae4f8725edb250f4e897561594f4f0f1, type: 2}
   shotSpot: {fileID: 1839130761}
-  fireRate: 1
+  fireRate: 0.25
 --- !u!65 &647622383
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -948,6 +949,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.1835144, y: 0.90896237, z: 1}
   m_Center: {x: 0.59175754, y: 0.015173831, z: 0}
+--- !u!65 &647622384
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 647622377}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &647622385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -960,8 +973,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CountDown: {fileID: 824676211}
+  EndText: {fileID: 0}
   seconds: 1
-  number: 120
+  number: 90
   EndGame: {fileID: 1210541480}
   transform: {fileID: 2032834635}
 --- !u!1 &681687692
@@ -1121,7 +1135,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 685440335}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 31.577389, y: -1.03, z: 0}
+  m_LocalPosition: {x: 31.577389, y: -1.08, z: 0}
   m_LocalScale: {x: 1.8640724, y: 1.8640728, z: 1.8640728}
   m_Children: []
   m_Father: {fileID: 1463262018}
@@ -3194,7 +3208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 927a9375986d3df498bcc0c8ea48d0bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tone: {fileID: 1329190660}
+  Tone: {fileID: 1143196871}
 --- !u!54 &2103013729
 Rigidbody:
   m_ObjectHideFlags: 0

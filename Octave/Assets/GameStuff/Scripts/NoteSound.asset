@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6bc351c32c1554bb2014ac6c6b51cf, type: 3}
   m_Name: NoteSound
   m_EditorClassIdentifier: 
-  Tone: {fileID: 82625336264499570, guid: 485186a1319e3f146aa0c65f9d43ed4d, type: 2}
+  Tone: {fileID: 82883883336073054, guid: 3b3aa1d7e2ffbda44b2fc7855d683f1c, type: 2}

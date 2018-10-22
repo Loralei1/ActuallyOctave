@@ -42,7 +42,7 @@ public class ButtonMove : MonoBehaviour
 		if (CanMove == true)
 		{
 
-			dirX = /*CrossPlatform*/Input /*Manager*/.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
+			//dirX = /*CrossPlatform*/Input /*Manager*/.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
 			dirY = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
 
 			transform.position = new Vector2(transform.position.x - +dirX, transform.position.y - +dirY);

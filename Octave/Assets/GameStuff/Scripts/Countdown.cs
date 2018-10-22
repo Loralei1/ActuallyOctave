@@ -9,6 +9,7 @@ using UnityEngine.UI;
 public class Countdown : MonoBehaviour {
 
 	public Text CountDown;
+	public Text EndText; 
 
 	public float seconds = 1.0f;
 
@@ -38,8 +39,8 @@ public class Countdown : MonoBehaviour {
 		}
 
 		yield return new WaitForSeconds(1);
-
-		CountDown.text = "Cut.";
+		EndText.text = "Cut";
+		CountDown.text = "";
 	}
 
 	private void OnTriggerEnter(Collider other)

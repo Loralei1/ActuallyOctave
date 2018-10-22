@@ -34,6 +34,7 @@
           <e p="Fermata.cs" t="Include" />
           <e p="Give.cs" t="Include" />
           <e p="Health.cs" t="Include" />
+          <e p="LevelChoose.cs" t="Include" />
           <e p="MoveEvent.cs" t="Include" />
           <e p="Mover.cs" t="Include" />
           <e p="NameID.cs" t="Include" />
