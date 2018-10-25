@@ -19,15 +19,13 @@
           <e p="FloatBools.cs" t="Include" />
           <e p="FloatDatas.cs" t="Include" />
           <e p="FloatInputs.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="MoveBases.cs" t="Include" />
           <e p="MovePatternNotGroundeds.cs" t="Include" />
           <e p="MovePatterns.cs" t="Include" />
         </e>
         <e p="Prefab" t="Include">
           <e p="DestroyOnContact.cs" t="Include" />
-          <e p="Objects.cs" t="Include" />
-          <e p="PurchasableObject.cs" t="Include" />
-          <e p="Store.cs" t="Include" />
         </e>
         <e p="scripts" t="Include">
           <e p="ButtonMove.cs" t="Include" />
@@ -51,6 +49,11 @@
           <e p="ScoreInstance.cs" t="Include" />
           <e p="ScoreTest.cs" t="Include" />
           <e p="Shots.cs" t="Include" />
+        </e>
+        <e p="Store" t="Include">
+          <e p="Objects.cs" t="Include" />
+          <e p="PurchasableObject.cs" t="Include" />
+          <e p="Store.cs" t="Include" />
         </e>
       </e>
       <e p="Assets\Standard Assets" t="Include">

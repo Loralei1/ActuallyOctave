@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed35c7e42bd0088438671bd9037114ad, type: 3}
+  m_Name: LevelStore
+  m_EditorClassIdentifier: 
+  Available: {fileID: 11400000, guid: 6d125fb5a37d2cb45bcd549ecae8f4b0, type: 2}
+  Purchased: {fileID: 11400000, guid: f3600812ecd717e44a6f2667c43f587f, type: 2}
+  Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}

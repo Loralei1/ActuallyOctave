@@ -460,12 +460,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 600089193}
-        m_MethodName: PlayCont
-        m_Mode: 1
+      - m_Target: {fileID: 11400000, guid: 1dc008d59c1769f4f88cc3e11e1bd03d, type: 2}
+        m_MethodName: MakePurchase
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: d42c52e89071b734fb3e4db097830ad9,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: PurchasableObject, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
