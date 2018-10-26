@@ -2251,7 +2251,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 97, y: -30}
+  m_AnchoredPosition: {x: 1005, y: -30}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1559898535
@@ -2857,6 +2857,7 @@ GameObject:
   - component: {fileID: 2103013728}
   - component: {fileID: 2103013727}
   - component: {fileID: 2103013726}
+  - component: {fileID: 2103013732}
   m_Layer: 0
   m_Name: QuarterNote
   m_TagString: Untagged
@@ -2972,3 +2973,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2103013732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2103013725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1514567962}
+  Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
+  musicname: 0
