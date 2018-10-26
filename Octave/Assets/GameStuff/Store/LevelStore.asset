@@ -17,17 +17,17 @@ MonoBehaviour:
   MadePurchase:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1332249952829310, guid: 3a71e5a64b5748544b38eb6381401b26,
+      - m_Target: {fileID: 114834429752356396, guid: 2709d63b7862e2e49826ca6adc7be75a,
           type: 2}
-        m_MethodName: SetActive
-        m_Mode: 6
+        m_MethodName: PlayCont
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
