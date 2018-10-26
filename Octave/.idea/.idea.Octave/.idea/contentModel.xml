@@ -53,6 +53,7 @@
         <e p="Store" t="Include">
           <e p="Objects.cs" t="Include" />
           <e p="PurchasableObject.cs" t="Include" />
+          <e p="SetActive.cs" t="Include" />
           <e p="Store.cs" t="Include" />
         </e>
       </e>

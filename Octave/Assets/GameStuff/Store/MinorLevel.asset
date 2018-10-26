@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b052691627968d4ba5a934eed8b5d94, type: 3}
   m_Name: MinorLevel
   m_EditorClassIdentifier: 
-  Item: {fileID: 102900000, guid: 57434435f73206241ada346572fa2c21, type: 3}
+  Item: {fileID: 11400000, guid: 37dd7a4e438e96f4e8b85170cf909ddb, type: 2}
   Value: 10

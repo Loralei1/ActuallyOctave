@@ -14,3 +14,20 @@ MonoBehaviour:
   Available: {fileID: 11400000, guid: 6d125fb5a37d2cb45bcd549ecae8f4b0, type: 2}
   Purchased: {fileID: 11400000, guid: f3600812ecd717e44a6f2667c43f587f, type: 2}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
+  MadePurchase:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1332249952829310, guid: 3a71e5a64b5748544b38eb6381401b26,
+          type: 2}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

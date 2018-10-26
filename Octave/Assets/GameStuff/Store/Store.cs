@@ -1,6 +1,7 @@
 ﻿using System.CodeDom;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Events;
@@ -13,9 +14,9 @@ public class Store : ScriptableObject
 	public Objects Purchased;
 	public IntData Cash;
 
-	public UnityEvent MadePurchase; 
-	
-	public void MakePurchase(PurchasableObject obj)
+	public UnityEvent MadePurchase;
+
+	private void MakePurchase(PurchasableObject obj)
 	{
 		for (var i = 0; i < Available.ObjectList.Count; i++)
 
@@ -28,6 +29,7 @@ public class Store : ScriptableObject
 				Cash.Value -= availableObject.Value;
 				Purchased.ObjectList.Add(obj);
 				Available.ObjectList.Remove(availableObject);
+				Debug.Log("Made Purchase");
 				MadePurchase.Invoke();
 			}
 
