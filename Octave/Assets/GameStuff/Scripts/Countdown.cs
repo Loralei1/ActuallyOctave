@@ -9,8 +9,7 @@ using UnityEngine.UI;
 
 public class Countdown : MonoBehaviour {
 
-	public Text CountDown;
-	//public Text EndText; 
+	public Text CountDown; 
 
 	public float seconds = 1.0f;
 
@@ -71,6 +70,7 @@ public class Countdown : MonoBehaviour {
 	{
 		if (number <= 0)
 		{
+		
 			LevelChange();
 			
 		}
@@ -79,6 +79,6 @@ public class Countdown : MonoBehaviour {
 
 	public void LevelChange()
 	{
-		SceneManager.LoadScene(2);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 }
