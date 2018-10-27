@@ -15,5 +15,5 @@ EditorBuildSettings:
     path: Assets/Scenes/TransitionScene.unity
     guid: c2446411b0a99d4438b7cb0d77d2de7a
   - enabled: 1
-    path: Assets/Scenes/MinorScale.unity
-    guid: 57434435f73206241ada346572fa2c21
+    path: Assets/Scenes/MinorLevel.unity
+    guid: bec5aeffdc197da429c419c20b4fd837
