@@ -46,6 +46,7 @@
           <e p="PlayerScore.cs" t="Include" />
           <e p="PlayNote.cs" t="Include" />
           <e p="Score.cs" t="Include" />
+          <e p="ScoreDisplay.cs" t="Include" />
           <e p="ScoreInstance.cs" t="Include" />
           <e p="ScoreTest.cs" t="Include" />
           <e p="Shots.cs" t="Include" />
