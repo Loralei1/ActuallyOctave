@@ -1131,7 +1131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 927a9375986d3df498bcc0c8ea48d0bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tone: {fileID: 0}
+  Tone: {fileID: 2080368385}
 --- !u!114 &260341923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2231,7 +2231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 927a9375986d3df498bcc0c8ea48d0bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tone: {fileID: 0}
+  Tone: {fileID: 2080368385}
 --- !u!114 &484768052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3023,7 +3023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CountDown: {fileID: 824676211}
   seconds: 1
-  number: 60
+  number: 15
 --- !u!1 &671064550
 GameObject:
   m_ObjectHideFlags: 0
@@ -4755,7 +4755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 927a9375986d3df498bcc0c8ea48d0bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tone: {fileID: 0}
+  Tone: {fileID: 1151441642}
 --- !u!54 &1088598687
 Rigidbody:
   m_ObjectHideFlags: 0

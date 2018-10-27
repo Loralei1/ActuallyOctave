@@ -33,7 +33,7 @@ public class Countdown : MonoBehaviour {
 		{
 
 			yield return new WaitForSeconds(seconds);
-			//SetCountDownText();
+			SetCountDownText();
 			//CountDown.text = "Time: " + number.ToString();
 
 			number--;
