@@ -17,11 +17,14 @@ public class Countdown : MonoBehaviour {
 	public int number = 60;
 
 	//public GameObject EndGameObject;
+	
+	
  
 
 	IEnumerator Start()
 
-	{
+	{ 
+		SetCountDownText();
 
 		//label = GetComponent<Text>();
 
@@ -30,8 +33,8 @@ public class Countdown : MonoBehaviour {
 		{
 
 			yield return new WaitForSeconds(seconds);
-
-			CountDown.text = number.ToString();
+			//SetCountDownText();
+			//CountDown.text = "Time: " + number.ToString();
 
 			number--;
 
@@ -41,19 +44,28 @@ public class Countdown : MonoBehaviour {
 
 		yield return new WaitForSeconds(1);
 		//EndText.text = "Cut";
-		CountDown.text = "";
+		//ountDown.text = "Time: ";
 	}
 
 	private void OnTriggerEnter(Collider other)
 	{
 		if (!other.gameObject.CompareTag("Rest")) return;
-		CountDown.text = number.ToString();
+		SetCountDownText();
+		//CountDown.text = "Time: " + number.ToString();
 		number = number + 10;
 		
 		if (!other.gameObject.CompareTag("Fermata")) return;
-		CountDown.text = number.ToString();
+		SetCountDownText();
+		//CountDown.text = "Time: " + number.ToString();
 		number = number + 10;
 	}
+	
+	void SetCountDownText()
+	{
+		CountDown.text = "Time: " + number.ToString();
+		
+	}
+
 
 	private void Update()
 	{

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: MinorLevel
   m_EditorClassIdentifier: 
   Item: {fileID: 11400000, guid: 37dd7a4e438e96f4e8b85170cf909ddb, type: 2}
-  Value: 10
+  Value: 200

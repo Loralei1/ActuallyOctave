@@ -18,9 +18,7 @@ public class Score : MonoBehaviour
 		QuarterNote,
 		HalfNote,
 		WholeNote,
-		EigthNote,
 		Rest,
-		Fermata
 	};
 
 	public musicthings musicname;
@@ -41,45 +39,24 @@ public class Score : MonoBehaviour
 			switch (musicname)
 			{
 				case (musicthings.QuarterNote):
-					Cash.Value = Cash.Value + 2;
+					Cash.Value = Cash.Value + 1;
 					SetScoreText();
 					break;
-
-				/*case (musicthings.HalfNote):
-					scorenum = scorenum + 4;
+				
+				case (musicthings.HalfNote):
+					Cash.Value = Cash.Value + 2; 
 					SetScoreText();
-					break;
-
+					break; 
+				
 				case (musicthings.WholeNote):
-					scorenum = scorenum + 8;
+					Cash.Value = Cash.Value + 4; 
 					SetScoreText();
 					break;
+					
 				case (musicthings.Rest):
-					scorenum = scorenum - 2;
+					Cash.Value = Cash.Value - 2; 
 					SetScoreText();
 					break;
-				case (musicthings.Fermata):
-					scorenum = scorenum - 10;
-					SetScoreText();
-					break;
-				case (musicthings.EigthNote):
-					scorenum = scorenum + 1;
-					SetScoreText();
-					break;
-			}
-
-		}
-			
-
-		//if (other.gameObject.CompareTag("Note"))
-
-		//{
-
-		//	other.gameObject.SetActive(false);
-
-		//	scorenum = scorenum + 1;
-
-		//	SetScoreText();*/
 
 
 			}
