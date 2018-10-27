@@ -6,7 +6,7 @@ using UnityStandardAssets.CrossPlatformInput;
 public class ButtonMove : MonoBehaviour
 {
 	public bool CanMove; 
-	private float dirX, dirY;
+	private float dirY;
 
 	[Range(1f, 20f)] public float moveSpeed = 3f;
 
@@ -36,16 +36,15 @@ public class ButtonMove : MonoBehaviour
 	}
 
 
-	// Update is called once per frame
+	
 	void Update()
 	{
 		if (CanMove == true)
 		{
 
-			//dirX = /*CrossPlatform*/Input /*Manager*/.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
 			dirY = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
 
-			transform.position = new Vector2(transform.position.x - +dirX, transform.position.y - +dirY);
+			transform.position = new Vector2(transform.position.x, transform.position.y - +dirY);
 		}
 
 	}
