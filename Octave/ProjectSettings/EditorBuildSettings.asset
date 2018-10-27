@@ -17,3 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MinorLevel.unity
     guid: bec5aeffdc197da429c419c20b4fd837
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 7ef61bd75afc2c74a8b4edc4e9454120
+  - enabled: 1
+    path: Assets/Scenes/HowToScene.unity
+    guid: 85fe44a96cb9eff4480fa48b88b43988
+  - enabled: 1
+    path: Assets/Scenes/InfoScene.unity
+    guid: c625f2ac3cf9edd438414f7ba775ee2b
