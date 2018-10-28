@@ -219,7 +219,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 91, y: -209}
+  m_AnchoredPosition: {x: 74, y: -183}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &233238423
@@ -254,8 +254,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "All sounds and music were created \nby Meaghan Searle using Garage Band.
-    \nAll art was likewise created using the \nonline PixilArt tool."
+  m_Text: "This, I suppose, is where the credits\nwould normally go, but it feels
+    a \nlittle self-aggrandizing to put them \nanywhere. In any case, Octave, along
+    \nwith its art and music, was created by \nMeaghan Searle, who hopes to improve\non
+    and expand the game in the near \nfuture. She also hopes to stop speaking\nin
+    the third person. "
 --- !u!222 &233238424
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -535,7 +538,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.37513405, g: 0.35413063, b: 0.9632353, a: 1}
+    m_HighlightedColor: {r: 0.41176468, g: 0.58620715, b: 1, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
