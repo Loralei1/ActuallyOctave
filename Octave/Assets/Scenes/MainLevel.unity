@@ -253,7 +253,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 2
 --- !u!1 &61517720
@@ -352,7 +351,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 1
 --- !u!1 &62781654
@@ -548,7 +546,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 1
 --- !u!1 &121032665
@@ -853,7 +850,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 1
 --- !u!65 &260341921
@@ -966,7 +962,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 0
 --- !u!65 &292291592
@@ -1174,7 +1169,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 0
 --- !u!65 &364865868
@@ -1562,7 +1556,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 1
 --- !u!65 &414594007
@@ -1838,7 +1831,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 0
 --- !u!65 &432512182
@@ -1937,7 +1929,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 0
 --- !u!65 &445210359
@@ -2118,7 +2109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 3
 --- !u!1 &459965816
@@ -2262,7 +2252,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 2
 --- !u!114 &484768051
@@ -2636,7 +2625,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 2
 --- !u!114 &564164233
@@ -3048,7 +3036,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 1
 --- !u!1 &647622377
@@ -3066,6 +3053,7 @@ GameObject:
   - component: {fileID: 647622381}
   - component: {fileID: 647622380}
   - component: {fileID: 647622384}
+  - component: {fileID: 647622386}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3212,6 +3200,19 @@ MonoBehaviour:
   CountDown: {fileID: 824676211}
   seconds: 1
   number: 15
+--- !u!114 &647622386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 647622377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724297f72008f064f96249fdaa34e257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
+  Score: {fileID: 1514567962}
 --- !u!1 &662217094
 GameObject:
   m_ObjectHideFlags: 0
@@ -3257,7 +3258,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 0
 --- !u!65 &662217097
@@ -3342,7 +3342,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 1
 --- !u!65 &671064552
@@ -3503,7 +3502,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 0
 --- !u!65 &689717862
@@ -3589,7 +3587,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 2
 --- !u!114 &712311800
@@ -3888,7 +3885,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 2
 --- !u!1 &758881853
@@ -4370,7 +4366,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 1
 --- !u!65 &906968813
@@ -4542,7 +4537,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 1
 --- !u!65 &937998900
@@ -4655,7 +4649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 0
 --- !u!65 &1035621123
@@ -5007,7 +5000,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 2
 --- !u!114 &1153859241
@@ -5866,7 +5858,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 2
 --- !u!114 &1378841966
@@ -6272,7 +6263,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 0
 --- !u!65 &1446293501
@@ -6718,7 +6708,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 0
 --- !u!65 &1534620239
@@ -7495,7 +7484,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 1
 --- !u!65 &1783260798
@@ -7595,7 +7583,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 2
 --- !u!114 &1788455167
@@ -7860,7 +7847,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 0
 --- !u!65 &1830135629
@@ -8684,7 +8670,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 2
 --- !u!114 &2080704561
@@ -8899,7 +8884,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 1
 --- !u!65 &2104848514
@@ -9180,6 +9164,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef584d3cf33a2f8458343e9fa126af1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1514567962}
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
   musicname: 2

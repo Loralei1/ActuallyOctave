@@ -9,10 +9,7 @@ public class NoteInstance : MonoBehaviour
 	public Transform transform;
 
 	public bool CanNote = true; 
-	//public List<GameObject> notecount;
-	//public GameObject AddMember; 
 
-	//[Range(1f, 20f)] public float noteSeconds = 3f;
 	private GameObject getNote()
 	{
 		return Note[Random.Range(0, 4)];
@@ -24,16 +21,10 @@ public class NoteInstance : MonoBehaviour
 		while (CanNote)
 		{
 			yield return new WaitForSeconds(Random.Range(1, 8));
-			//for (int i = 0; i < 1; i++)
 			{
 				Instantiate(getNote(), transform.position, transform.rotation);
 			}
 
-			//notecount.Add(AddMember.gameObject);
-			//foreach (GameObject note in notecount) ;
-			
-			//Aaaaaand I haven't gotten this or the score to work quite right yet. 
-			//The notes instantiate but I can't get the random things to instantiate.
 		}
 	}
 }

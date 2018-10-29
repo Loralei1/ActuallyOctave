@@ -24,14 +24,12 @@
           <e p="MovePatternNotGroundeds.cs" t="Include" />
           <e p="MovePatterns.cs" t="Include" />
         </e>
-        <e p="Prefab" t="Include">
-          <e p="DestroyOnContact.cs" t="Include" />
-        </e>
         <e p="scripts" t="Include">
           <e p="Back.cs" t="Include" />
-          <e p="ButtonMove.cs" t="Include" />
           <e p="Countdown.cs" t="Include" />
           <e p="DestroyInstantly.cs" t="Include" />
+          <e p="DestroyOnContact.cs" t="Include" />
+          <e p="Fermata.cs" t="Include" />
           <e p="HowToButtonT.cs" t="Include" />
           <e p="InfoTo.cs" t="Include" />
           <e p="LevelChoose.cs" t="Include" />
@@ -43,6 +41,8 @@
           <e p="QuitStuff.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="ScoreDisplay.cs" t="Include" />
+          <e p="ScoreText.cs" t="Include" />
+          <e p="ShipMove.cs" t="Include" />
           <e p="Shots.cs" t="Include" />
         </e>
         <e p="Store" t="Include">

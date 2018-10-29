@@ -9,7 +9,7 @@ public class Score : MonoBehaviour
 {
 
 
-	public Text scoreText;
+	//public Text scoreText;
 
 	public IntData Cash;
 
@@ -25,7 +25,7 @@ public class Score : MonoBehaviour
 
 	private void Start()
 	{
-		SetScoreText();
+		//SetScoreText();
 	}
 
 
@@ -40,22 +40,22 @@ public class Score : MonoBehaviour
 			{
 				case (musicthings.QuarterNote):
 					Cash.Value = Cash.Value + 1;
-					SetScoreText();
+					//SetScoreText();
 					break;
 				
 				case (musicthings.HalfNote):
 					Cash.Value = Cash.Value + 2; 
-					SetScoreText();
+					//SetScoreText();
 					break; 
 				
 				case (musicthings.WholeNote):
 					Cash.Value = Cash.Value + 4; 
-					SetScoreText();
+					//SetScoreText();
 					break;
 					
 				case (musicthings.Rest):
 					Cash.Value = Cash.Value - 2; 
-					SetScoreText();
+					//SetScoreText();
 					break;
 
 
@@ -64,11 +64,11 @@ public class Score : MonoBehaviour
 
 	}
 
-	void SetScoreText()
+	/*void SetScoreText()
 		{
 			scoreText.text = "Score: " + Cash.Value.ToString();
 		
-			}
+			}*/
 
 		}
 	
