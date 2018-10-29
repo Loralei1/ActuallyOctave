@@ -32,7 +32,6 @@
           <e p="ButtonMove.cs" t="Include" />
           <e p="Countdown.cs" t="Include" />
           <e p="DestroyInstantly.cs" t="Include" />
-          <e p="Health.cs" t="Include" />
           <e p="HowToButtonT.cs" t="Include" />
           <e p="InfoTo.cs" t="Include" />
           <e p="LevelChoose.cs" t="Include" />
@@ -82,13 +81,6 @@
             <e p="License!.txt" t="Include" />
           </e>
         </e>
-      </e>
-      <e p="Assets\StuffIWillNeed" t="Include">
-        <e p="DestroyOnTrigger.cs" t="Include" />
-        <e p="EnemyMovement.cs" t="Include" />
-        <e p="HealthBar.cs" t="Include" />
-        <e p="InstantEnemy.cs" t="Include" />
-        <e p="NotationSwitch.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

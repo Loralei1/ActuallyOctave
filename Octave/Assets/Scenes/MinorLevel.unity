@@ -428,7 +428,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &62781658
 RectTransform:
@@ -8426,8 +8426,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 20.900063, y: 1, z: 1}
-  m_Center: {x: 2.4380918, y: 0, z: 0}
+  m_Size: {x: 15.69273, y: 1, z: 1}
+  m_Center: {x: -0.16557503, y: 0, z: 0}
 --- !u!4 &2021314860
 Transform:
   m_ObjectHideFlags: 0

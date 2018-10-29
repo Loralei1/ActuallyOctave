@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class ButtonMove : MonoBehaviour
+public class ShipMove : MonoBehaviour
 {
 	public bool CanMove; 
 	private float dirY;

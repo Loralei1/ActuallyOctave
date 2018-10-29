@@ -216,10 +216,10 @@ RectTransform:
   m_Father: {fileID: 886622216}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 199, y: -252}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.004528, y: 0}
+  m_SizeDelta: {x: -0.0090332, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &485239218
 MonoBehaviour:
@@ -249,15 +249,16 @@ MonoBehaviour:
     m_MaxSize: 50
     m_Alignment: 0
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Octave is a music improv meets space shooter style game. \n\n\tScore points
-    and play notes by shooting them.  \n\n\tSteer your ship to collide with rests
-    in order to add to your time. \n\n\tAvoid fermatas. \n\n\tYou don't lose points
-    for playing off notes, so just have fun! \n\nKeys:\n\nUp = \"W\" or the up arrow\nDown
-    = \"S\" or the down arrow\nPress \"space\" to shoot"
+  m_Text: "\t\t\t\n\n\n\n\n\n\n\n\t\tOctave is a music improv meets space shooter
+    style game. \n\n\t\t\t\tScore points and play notes by shooting them.  \n\n\t\t\t\tSteer
+    your ship to collide with rests in order to add to your time. \n\n\t\t\t\tAvoid
+    fermatas. \n\n\t\tYou don't lose points for playing off notes, so just have fun!
+    \n\n\t\tKeys:\n\n\t\tUp = \"W\" or the up arrow\n\t\tDown = \"S\" or the down
+    arrow\n\t\tPress \"space\" to shoot"
 --- !u!222 &485239219
 CanvasRenderer:
   m_ObjectHideFlags: 0
