@@ -217,11 +217,11 @@ RectTransform:
   m_Father: {fileID: 1724996704}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74, y: -183}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -436, y: 134}
   m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 0}
 --- !u!114 &233238423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,11 +254,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "This, I suppose, is where the credits\nwould normally go, but it feels
-    a \nlittle self-aggrandizing to put them \nanywhere. In any case, Octave, along
-    \nwith its art and music, was created by \nMeaghan Searle, who hopes to improve\non
-    and expand the game in the near \nfuture. She also hopes to stop speaking\nin
-    the third person. "
+  m_Text: "This is a placeholder for where I might \nput some music theory information
+    for\nif I decide to turn this into an\neducational \"how to read music\" game\nfor
+    kids. "
 --- !u!222 &233238424
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -513,11 +511,11 @@ RectTransform:
   m_Father: {fileID: 1724996704}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -312, y: -217}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 198, y: 100}
   m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1616340998
 MonoBehaviour:
   m_ObjectHideFlags: 0

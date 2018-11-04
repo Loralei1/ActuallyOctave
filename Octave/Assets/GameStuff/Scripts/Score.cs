@@ -54,7 +54,7 @@ public class Score : MonoBehaviour
 					break;
 					
 				case (musicthings.Rest):
-					Cash.Value = Cash.Value - 2; 
+					Cash.Value = Cash.Value - 8; 
 					//SetScoreText();
 					break;
 
