@@ -6,4 +6,5 @@ using UnityEngine;
 public class Objects : ScriptableObject {
 
 	public List<Object> ObjectList;
+	//public List<PurchasableObject> ObjectList; 
 }
