@@ -7,16 +7,16 @@ public class ScoreText : MonoBehaviour
 {
 
 	public IntData Cash;
-	public Text Countdown;
+	public Text Score;
 
 	private void Start()
 	{
-		Countdown.text = "Score: " + Cash.Value.ToString();
+		Score.text = "Score: " + Cash.Value.ToString();
 	}
 
 	private void SetScoreText()
 	{
-		Countdown.text = "Score: " + Cash.Value.ToString();
+		Score.text = "Score: " + Cash.Value.ToString();
 	}
 
 	private void Update()

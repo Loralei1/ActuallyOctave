@@ -46,6 +46,8 @@
           <e p="ScoreText.cs" t="Include" />
           <e p="ShipMove.cs" t="Include" />
           <e p="Shots.cs" t="Include" />
+          <e p="TimeOutEvent.cs" t="Include" />
+          <e p="TimeText.cs" t="Include" />
         </e>
         <e p="Store" t="Include">
           <e p="Objects.cs" t="Include" />

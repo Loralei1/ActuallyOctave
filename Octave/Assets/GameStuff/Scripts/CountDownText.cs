@@ -6,16 +6,16 @@ using UnityEngine.UI;
 public class CountDownText : MonoBehaviour {
 
 	public IntData Time;
-	public Text Score;
+	public Text Countdown;
 
 	private void Start()
 	{
-		Score.text = "Time: " + Time.Value.ToString();
+		Countdown.text = "Time: " + Time.Value.ToString();
 	}
 
 	private void SetScoreText()
 	{
-		Score.text = "Time: " + Time.Value.ToString();
+		Countdown.text = "Time: " + Time.Value.ToString();
 	}
 
 	private void Update()
