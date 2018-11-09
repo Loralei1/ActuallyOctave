@@ -3,20 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScoreText : MonoBehaviour
-{
+public class CountDownText : MonoBehaviour {
 
-	public IntData Cash;
-	public Text Countdown;
+	public IntData Time;
+	public Text Score;
 
 	private void Start()
 	{
-		Countdown.text = "Score: " + Cash.Value.ToString();
+		Score.text = "Time: " + Time.Value.ToString();
 	}
 
 	private void SetScoreText()
 	{
-		Countdown.text = "Score: " + Cash.Value.ToString();
+		Score.text = "Time: " + Time.Value.ToString();
 	}
 
 	private void Update()

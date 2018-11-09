@@ -27,6 +27,7 @@
         <e p="scripts" t="Include">
           <e p="Back.cs" t="Include" />
           <e p="Countdown.cs" t="Include" />
+          <e p="CountDownText.cs" t="Include" />
           <e p="Create.cs" t="Include" />
           <e p="DestroyInstantly.cs" t="Include" />
           <e p="DestroyOnContact.cs" t="Include" />

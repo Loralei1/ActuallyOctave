@@ -3054,6 +3054,7 @@ GameObject:
   - component: {fileID: 647622380}
   - component: {fileID: 647622384}
   - component: {fileID: 647622386}
+  - component: {fileID: 647622387}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3197,9 +3198,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b403306e2158b4c4b8ac5c9455192b59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CountDown: {fileID: 824676211}
   seconds: 1
-  number: {fileID: 11400000, guid: 93330805fb09ec54f99ebca3296a7bb0, type: 2}
+  Time: {fileID: 11400000, guid: 93330805fb09ec54f99ebca3296a7bb0, type: 2}
 --- !u!114 &647622386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3212,7 +3212,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cash: {fileID: 11400000, guid: 98039a12665cd3d4f97c60c8ac80fb71, type: 2}
-  Score: {fileID: 1514567962}
+  Countdown: {fileID: 1514567962}
+--- !u!114 &647622387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 647622377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea41124cc72a7248be74ce603e4e19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Time: {fileID: 11400000, guid: 93330805fb09ec54f99ebca3296a7bb0, type: 2}
+  Score: {fileID: 824676211}
 --- !u!1 &662217094
 GameObject:
   m_ObjectHideFlags: 0

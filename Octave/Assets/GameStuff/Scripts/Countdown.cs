@@ -10,11 +10,11 @@ using UnityEngine.UI;
 
 public class Countdown : MonoBehaviour {
 
-	public Text CountDown; 
+	//public Text CountDown; 
 
 	public float seconds = 1.0f;
 
-	public IntData number;
+	public IntData Time;
 
 	//public GameObject EndGameObject;
 
@@ -26,20 +26,20 @@ public class Countdown : MonoBehaviour {
 	IEnumerator Start()
 
 	{
-		number.Value = 15; 
-		SetCountDownText();
+		Time.Value = 15; 
+		//SetCountDownText();
 
 		//label = GetComponent<Text>();
 
-		while (number.Value > 0)
+		while (Time.Value > 0)
 
 		{
 
 			yield return new WaitForSeconds(seconds);
-			SetCountDownText();
+			//SetCountDownText();
 			//CountDown.text = "Time: " + number.ToString();
 
-			number.Value--;
+			Time.Value--;
 
 			
 
@@ -53,9 +53,9 @@ public class Countdown : MonoBehaviour {
 	private void OnTriggerEnter(Collider other)
 	{
 		if (!other.gameObject.CompareTag("Rest")) return;
-		SetCountDownText();
+		//SetCountDownText();
 		//CountDown.text = "Time: " + number.ToString();
-		number.Value = number.Value + 10;
+		Time.Value = Time.Value + 10;
 		
 		//if (!other.gameObject.CompareTag("Fermata")) return;
 		//SetCountDownText();
@@ -63,16 +63,16 @@ public class Countdown : MonoBehaviour {
 		//number.Value = number + 10;
 	}
 	
-	void SetCountDownText()
-	{
-		CountDown.text = "Time: " + number.Value.ToString();
+	//void SetCountDownText()
+	//{
+	//	CountDown.text = "Time: " + Time.Value.ToString();
 		
-	}
+	//}
 
 
 	private void Update()
 	{
-		if (number.Value <= 0)
+		if (Time.Value <= 0)
 		{
 		
 			LevelChange();
