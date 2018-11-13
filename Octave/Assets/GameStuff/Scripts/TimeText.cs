@@ -10,16 +10,24 @@ public class TimeText : MonoBehaviour
 {
 
 	public IntData Time;
-	//public Text TimeOut;
-	public UnityEvent Event;
+	public Text TimeOut;
+	//public UnityEvent Event;
 
-	public void Update()
+	private void Start()
 	{
-		if (Time.Value == 5)
+		TimeOut.text = "";
+	}
+
+	private void Update()
+	{
+		if (Time.Value <= 5)
 		{
-			Event.Invoke();
-			
+			SetTimeOutText();
 		}
-		
+	}
+
+	private void SetTimeOutText()
+	{
+		TimeOut.text = "Five Seconds Left!";
 	}
 }
