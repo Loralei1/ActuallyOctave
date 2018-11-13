@@ -25,10 +25,10 @@ public class TimeText : MonoBehaviour
 			SetTimeOutText();
 		}
 
-		/*if (Time.Value <= 0)
+		if (Time.Value >= 6)
 		{
-			SetEndText();
-		}*/
+			SetTimeText();
+		}
 	}
 
 	private void SetTimeOutText()
@@ -36,8 +36,8 @@ public class TimeText : MonoBehaviour
 		TimeOut.text = "Five Seconds Left!";
 	}
 
-	/*private void SetEndText()
+	private void SetTimeText()
 	{
-		TimeOut.text = "Out of time!";
-	}*/
+		TimeOut.text = "";
+	}
 }
