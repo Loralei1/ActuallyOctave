@@ -70,10 +70,11 @@ public class Countdown : MonoBehaviour {
 	//}
 
 
-	private void Update()
+	private void Update ()
 	{
 		if (Time.Value <= 0)
 		{
+			//yield return new WaitForSeconds(3);
 		
 			LevelChange();
 			
@@ -85,4 +86,5 @@ public class Countdown : MonoBehaviour {
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
+	
 }
