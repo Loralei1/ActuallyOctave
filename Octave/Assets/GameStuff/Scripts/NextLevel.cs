@@ -7,6 +7,6 @@ public class NextLevel : MonoBehaviour {
 
 	public void PlayCont()
 	{
-		SceneManager.LoadScene(3);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 }

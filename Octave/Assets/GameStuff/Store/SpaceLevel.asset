@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b052691627968d4ba5a934eed8b5d94, type: 3}
-  m_Name: MinorLevel
+  m_Name: SpaceLevel
   m_EditorClassIdentifier: 
   Item: {fileID: 102900000, guid: bec5aeffdc197da429c419c20b4fd837, type: 3}
   Value: 200
