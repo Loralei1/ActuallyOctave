@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Name: AvailableList
   m_EditorClassIdentifier: 
   ObjectList:
+  - {fileID: 11400000, guid: b6887af16a8aca8469bd4becacb229ed, type: 2}
+  - {fileID: 11400000, guid: 91f43db9589d21a4781c8e916689bee1, type: 2}
+  - {fileID: 11400000, guid: eb3b1c4b50114dd4d9ce6c4cb0270cef, type: 2}
   - {fileID: 11400000, guid: d42c52e89071b734fb3e4db097830ad9, type: 2}

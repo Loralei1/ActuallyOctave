@@ -9,6 +9,6 @@ public class LevelChoose : MonoBehaviour {
 	
 	public void PLayGame()
 	{
-		SceneManager.LoadScene(1);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 	}
 }
