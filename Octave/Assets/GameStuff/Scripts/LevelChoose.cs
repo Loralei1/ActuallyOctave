@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.Analytics;
 using UnityEngine.SceneManagement;
 
-public class LevelChoose : MonoBehaviour {
-	
+public class LevelChoose : MonoBehaviour
+{
+ 
 	
 	public void PLayGame()
 	{

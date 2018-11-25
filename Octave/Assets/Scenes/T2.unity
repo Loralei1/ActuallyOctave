@@ -389,7 +389,7 @@ MonoBehaviour:
         m_MethodName: MakePurchase
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: d42c52e89071b734fb3e4db097830ad9,
+          m_ObjectArgument: {fileID: 11400000, guid: 91f43db9589d21a4781c8e916689bee1,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: PurchasableObject, Assembly-CSharp
           m_IntArgument: 0
@@ -499,7 +499,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Play Again
+  m_Text: Retry
 --- !u!222 &552244511
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -849,7 +849,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'You must have 200 points to play the next level. '
+  m_Text: 'You must spend 250 points to play the next level. '
 --- !u!222 &889414872
 CanvasRenderer:
   m_ObjectHideFlags: 0
