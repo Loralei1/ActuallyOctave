@@ -28,7 +28,7 @@ public class PlayStartText : MonoBehaviour
 		yield return new WaitForSeconds(2);
 		Three.text = "3. Avoid fermatas.";
 		//SetThreeText();
-		yield return new WaitForSeconds(8);
+		yield return new WaitForSeconds(3);
 		Event.Invoke();
 		
 	}

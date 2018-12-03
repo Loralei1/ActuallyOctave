@@ -513,7 +513,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 198, y: 100}
+  m_AnchoredPosition: {x: 698, y: 23}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1616340998
@@ -556,7 +556,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2037995544}
-        m_MethodName: BackToStart
+        m_MethodName: PLayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -793,7 +793,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2037995543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe417dfcb58891949b9648f2c3aafc41, type: 3}
+  m_Script: {fileID: 11500000, guid: a3fc2c4a06e92e94abe54461e7bcb4b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &2037995545

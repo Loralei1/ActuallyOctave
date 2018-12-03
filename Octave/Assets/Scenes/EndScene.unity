@@ -336,7 +336,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 900126126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 199d32a7bb8fbdb47bf403086b5591d3, type: 3}
+  m_Script: {fileID: 11500000, guid: 76eeed0f1f091584ba555cc602336922, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &900126128
@@ -772,7 +772,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 900126127}
-        m_MethodName: ToInfo
+        m_MethodName: PlayCont
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1137,7 +1137,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2082229404}
-        m_MethodName: PLayGame
+        m_MethodName: BackToStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1315,7 +1315,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2082229403}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3fc2c4a06e92e94abe54461e7bcb4b8, type: 3}
+  m_Script: {fileID: 11500000, guid: fe417dfcb58891949b9648f2c3aafc41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &2082229405
