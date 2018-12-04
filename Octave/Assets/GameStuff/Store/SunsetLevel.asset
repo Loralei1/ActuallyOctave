@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: SunsetLevel
   m_EditorClassIdentifier: 
   Item: {fileID: 102900000, guid: 670256771eb7e1f4794e6c841386704d, type: 3}
-  Value: 200
+  Value: 100

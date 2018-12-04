@@ -849,7 +849,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'You must spend 250 points to play the next level. '
+  m_Text: 'You must spend 150 points to play the next level. '
 --- !u!222 &889414872
 CanvasRenderer:
   m_ObjectHideFlags: 0

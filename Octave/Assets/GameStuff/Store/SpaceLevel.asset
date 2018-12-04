@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: SpaceLevel
   m_EditorClassIdentifier: 
   Item: {fileID: 102900000, guid: bec5aeffdc197da429c419c20b4fd837, type: 3}
-  Value: 400
+  Value: 250

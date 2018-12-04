@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Analytics;
 using UnityEngine.SceneManagement;
 
-public class LevelChoose : MonoBehaviour
+public class PreviousLevel : MonoBehaviour
 {
  
 	

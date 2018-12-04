@@ -28,26 +28,23 @@
           <e p="Back.cs" t="Include" />
           <e p="Countdown.cs" t="Include" />
           <e p="CountDownText.cs" t="Include" />
-          <e p="Create.cs" t="Include" />
           <e p="DestroyInstantly.cs" t="Include" />
           <e p="DestroyOnContact.cs" t="Include" />
           <e p="Fermata.cs" t="Include" />
-          <e p="HowToButtonT.cs" t="Include" />
-          <e p="InfoTo.cs" t="Include" />
-          <e p="LevelChoose.cs" t="Include" />
           <e p="Mover.cs" t="Include" />
           <e p="NameID.cs" t="Include" />
           <e p="NextLevel.cs" t="Include" />
+          <e p="NoPurchaseText.cs" t="Include" />
           <e p="NoteInstance.cs" t="Include" />
           <e p="PlayNote.cs" t="Include" />
           <e p="PlayStartText.cs" t="Include" />
+          <e p="PreviousLevel.cs" t="Include" />
           <e p="QuitStuff.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="ScoreDisplay.cs" t="Include" />
           <e p="ScoreText.cs" t="Include" />
           <e p="ShipMove.cs" t="Include" />
           <e p="Shots.cs" t="Include" />
-          <e p="TimeOutEvent.cs" t="Include" />
           <e p="TimeText.cs" t="Include" />
           <e p="TriggerEvent.cs" t="Include" />
         </e>

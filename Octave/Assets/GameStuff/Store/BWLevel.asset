@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: BWLevel
   m_EditorClassIdentifier: 
   Item: {fileID: 102900000, guid: 0b3ebedea00c4124ca3d6d6c1e1eb1cc, type: 3}
-  Value: 350
+  Value: 200

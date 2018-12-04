@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: NightLevel
   m_EditorClassIdentifier: 
   Item: {fileID: 102900000, guid: 6d50ffd8b12d47f469130814b199fe29, type: 3}
-  Value: 250
+  Value: 150

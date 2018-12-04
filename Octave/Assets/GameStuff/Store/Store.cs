@@ -15,10 +15,11 @@ public class Store : ScriptableObject
 	public Objects Available;
 	public Objects Purchased;
 	public IntData Cash;
-	public GameObject Button;
-	public GameObject Canvas;
+	//public GameObject Button;
+	//public GameObject Canvas;
 	
 	public UnityEvent MadePurchase;
+	 
 
 	/*public void BuildUI()
 	{
@@ -52,6 +53,8 @@ public class Store : ScriptableObject
 				Debug.Log("Made Purchase");
 				MadePurchase.Invoke();
 			}
+
+			
 
 
 		}

@@ -1,6 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -19,16 +17,13 @@ public class PlayStartText : MonoBehaviour
 		SetOneText();
 		SetTwoText();
 		SetThreeText();
-		yield return new WaitForSeconds(2);
+		yield return new WaitForSeconds(1);
 		One.text = "1. Shoot notes to score points.";
-		//SetOneText();
-		yield return new WaitForSeconds(2);
+		yield return new WaitForSeconds(1);
 		Two.text = "2. Collide with rests to gain time.";
-		//SetTwoText();
-		yield return new WaitForSeconds(2);
+		yield return new WaitForSeconds(1);
 		Three.text = "3. Avoid fermatas.";
-		//SetThreeText();
-		yield return new WaitForSeconds(3);
+		yield return new WaitForSeconds(2);
 		Event.Invoke();
 		
 	}
@@ -49,10 +44,4 @@ public class PlayStartText : MonoBehaviour
 	}
 	
 	
-	/*private void Update()
-	{
-		SetOneText();
-		SetTwoText();
-		SetThreeText(); 
-	}*/
 }
