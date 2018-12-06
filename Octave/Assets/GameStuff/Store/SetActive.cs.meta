@@ -5,7 +5,11 @@ licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - LevelButton: {fileID: 114133453281928082, guid: 1a68ee169322fc24790d19e773598ebd,
+      type: 2}
+  - ButtonText: {fileID: 114974281681192194, guid: 1a68ee169322fc24790d19e773598ebd,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
