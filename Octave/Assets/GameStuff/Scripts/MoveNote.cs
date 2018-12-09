@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mover : MonoBehaviour {
+public class MoveNote : MonoBehaviour {
 
 	private Rigidbody rb; 
 	public float Speed; 

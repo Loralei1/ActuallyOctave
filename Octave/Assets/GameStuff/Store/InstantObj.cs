@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SetActive : MonoBehaviour
+public class InstantObj : MonoBehaviour
 {
 	public GameObject Test;
 	public Transform transform;
