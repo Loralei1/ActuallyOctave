@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class SetActive : MonoBehaviour
 {
 	public GameObject Test;
-	public Transform Transform;
+	public Transform transform;
 	
 	
 	public void SeeLevel()

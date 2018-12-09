@@ -36,6 +36,7 @@
           <e p="NextLevel.cs" t="Include" />
           <e p="NoPurchaseText.cs" t="Include" />
           <e p="NoteInstance.cs" t="Include" />
+          <e p="OnMouseEvent.cs" t="Include" />
           <e p="PlayNote.cs" t="Include" />
           <e p="PlayStartText.cs" t="Include" />
           <e p="PreviousLevel.cs" t="Include" />
