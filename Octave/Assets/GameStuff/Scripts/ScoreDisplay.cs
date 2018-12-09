@@ -9,7 +9,7 @@ public class ScoreDisplay : MonoBehaviour
 	public Text ScoreText;
 	public IntData Cash;
 
-	private void Start()
+	private void Update()
 	{
 		ScoreText.text = "Current Score: " + Cash.Value.ToString();
 	}
