@@ -21,8 +21,8 @@ EditorBuildSettings:
     path: Assets/Scenes/SunsetLevel.unity
     guid: 670256771eb7e1f4794e6c841386704d
   - enabled: 1
-    path: Assets/Scenes/T2.unity
-    guid: 76d84087fb2d4dd4492868b8e639c5e3
+    path: Assets/Scenes/Transit2.unity
+    guid: d30ec05388abc0b42bffb81aa9a82a64
   - enabled: 1
     path: Assets/Scenes/NightLevel.unity
     guid: 6d50ffd8b12d47f469130814b199fe29
