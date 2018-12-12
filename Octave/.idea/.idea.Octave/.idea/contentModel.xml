@@ -31,7 +31,7 @@
           <e p="DestroyInstantly.cs" t="Include" />
           <e p="DestroyOnContact.cs" t="Include" />
           <e p="Fermata.cs" t="Include" />
-          <e p="Mover.cs" t="Include" />
+          <e p="MoveNote.cs" t="Include" />
           <e p="NameID.cs" t="Include" />
           <e p="NextLevel.cs" t="Include" />
           <e p="NoPurchaseText.cs" t="Include" />
